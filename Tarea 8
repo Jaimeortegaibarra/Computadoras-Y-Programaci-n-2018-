@@ -1,0 +1,54 @@
+- Hola 1 a 10 con ciclo for.
+#include<stdio.h>
+int main (){
+    int j=0;
+    for(j=1; j<=10; j++){
+        printf("hola %d\n", j);
+    }
+}
+
+
+- Tabla del 3 con ciclo for.
+#include<stdio.h>
+int main(){
+    int j=0;
+    for(j=1; j<=10; j++){
+      int  m=(3*j);
+       printf("3 * %d = %d\n", j, m);
+    }
+}
+
+
+- Tabla de n a m con scanf.
+#include<stdio.h>
+int main(){
+    int n=0;
+    int m=0;
+    int i=0;
+    printf("Dame un numero\n");
+    scanf("%d",&n);
+    printf("Hasta que numero deseas que se multiplique?");
+    scanf("%d",&m);
+    for (i=1; i<=m; i++){
+        int a=(i*n);
+        printf("%d * %d = %d\n", i, n, a);
+          }
+    printf("Fin del programa\n");
+}
+
+
+- Cuadro de simbolos con ciclo for andado.
+#include<stdio.h>
+
+int main(){
+	int j=0;
+	int k=0;
+	for(j=1; j<=6; j++){
+		
+	for(k=1; k<=6; k++){
+	
+	printf("+");
+	}	
+	printf("\n");
+}
+}
