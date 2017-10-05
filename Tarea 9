@@ -1,0 +1,62 @@
+Dias de la semana con switch.
+#include<stdio.h>
+int main(){
+    int num=0;
+    printf("Dame un numero entre 1 y 7\n");
+    scanf("%d",&num);
+    if (num>=1 && num<=7){
+        switch (num){
+            case 1:
+            printf("Lunes\n");
+            break;
+            case 2:
+            printf("Martes\n");
+            break;
+            case 3:
+            printf("Miercoles\n");
+            break;
+            case 4:
+            printf("Jueves\n");
+            break;
+            case 5:
+            printf("Viernes\n");
+            break;
+            case 6:
+            printf("Sabado\n");
+            break;
+            case 7:
+            printf("Domingo\n");
+            break;
+        }
+    }
+{
+
+Numero Par o Impar.
+#include <stdio.h>
+int main(){
+       int n;
+       printf("Introduzca numero:\n");
+    scanf("%d",&n);
+
+    if (n%2==0) {
+       printf("El numero es par.\n");
+    }
+    else
+    {
+       printf("El numero es impar.\n");
+    }     
+    return 0;
+{
+
+Que pida un numero y muestre en pantalla la misma cantidad de asteriscos
+#include <stdio.h>
+int main()
+{
+    int i,num;
+    printf("Dame un numero: ");
+    scanf("%d",&num);
+    for(i=0; i<num ; i++)
+        printf(" *");
+
+    return 0;
+{
