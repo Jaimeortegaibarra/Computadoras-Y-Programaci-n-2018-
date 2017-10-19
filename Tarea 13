@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+    int j=0;
+    int a=0;
+    int b=0;
+    do{
+    printf("Elige un número de acuerdo a la operación que deseas realizar:\n Suma = 1\n Resta = 2\n Salir = 3\n");
+    scanf("%d",&j);
+    switch(j){
+        case 1:
+            printf("Dame el primer número\n");
+            scanf("%d",&a);
+            printf("Dame el número que deseas sumarle\n");
+            scanf("%d",&b),
+            printf("El resultado de la suma es: %d\n", a+b);
+        break;
+       case 2:
+            printf("Dame el primer número\n");
+            scanf("%d",&a);
+            printf("Dame el número que deseas restarle\n");
+            scanf("%d",&b),
+            printf("El resultado de la resta es: %d\n", a-b);
+ }
+ 
+}while(j!=3);
+        printf("Fin");
+        return 0;
+    
+}
