@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main(){
+	int m=0;
+	float n=0;
+	float j=0;
+	float mayor;
+	float menor;
+	printf ("Dime un número entero\n");
+scanf ("%d",&m);
+printf ("Dime un número decimal\n");
+scanf ("%f",&n);
+printf ("Dame otro número decimal\n");
+scanf ("%f",&j);
+	mayor = m;
+	if (n> mayor)
+	mayor = n;
+	if (j> mayor)
+	mayor = j;
+	printf ("El número mayor es% f\n", mayor);
+	menor = m;
+	if (n <menor)
+	menor = n;
+	if (j <menor)
+	menor = j;
+	printf ("El número menor es% f\n", menor);	
+	
+}
