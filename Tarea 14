@@ -1,0 +1,14 @@
+# include<stdio.h>
+# include<stdlib.h>
+#define MAX 5
+
+int main(){
+int edad=0;
+double PI= 3.1416 ;
+    printf("¿Cual es tu edad?");
+    scanf("%d",&edad);
+    printf ( "Tu edad es: %d\n" ,edad);
+    printf ( "Máximo: %d\n" ,MAX);
+    printf ( " Valor de PI: %.4f\n" ,PI);
+    return 0;
+}
