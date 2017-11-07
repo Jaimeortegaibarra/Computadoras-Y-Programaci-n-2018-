@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+	int j=0;
+	int k=0;
+ int l=0;
+ int a=0;
+    printf("Cuantos simbolos de ancho quieres en tu figura?\n");
+    scanf("%d",&l);
+    printf("Cuantos simbolos de largo quieres en tu figura?\n");
+    scanf("%d",&a);
+	for(j=1; j<=l; j++){
+	for(k=1; k<=a; k++){
+	printf("+");
+	}	
+	printf("\n");
+}
+}
